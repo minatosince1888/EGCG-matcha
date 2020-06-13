@@ -38,6 +38,11 @@ p1{
  text-shadow: 2px 3px 4px #000000;
 }
 
+p2{
+ font-size: 20px;
+ text-shadow: 1px 0px 0px #000000;
+}
+
 strong{
 	font-size: 40px;
 	text-shadow: 2px 3px 4px #000000;
@@ -576,10 +581,20 @@ input, select, textarea {
 		line-height: 1.25em;
 		letter-spacing: -0.05em;
 	}
+	h3 {
+		font-size: 2.25em;
+		line-height: 1.25em;
+		letter-spacing: -0.05em;
+		text-shadow: 2px 3px 4px #000000;
+	}
+
 
 	@media screen and (max-width: 736px) {
 
 		h2 {
+			font-size: 1.5em;
+		}
+		h3 {
 			font-size: 1.5em;
 		}
 
@@ -1974,6 +1989,11 @@ input, select, textarea {
 				line-height: 1em;
 			}
 
+			.main.style1 h3 {
+				font-size: 4.25em;
+				line-height: 1em;
+			}
+
 			.main.style1 > .content {
 				-moz-transition: opacity 1s ease;
 				-webkit-transition: opacity 1s ease;
@@ -2016,6 +2036,7 @@ input, select, textarea {
 				position: relative;
 				width: 35%;
 				margin: 0;
+				opacity: 85%;
 			}
 
 			.main.style2.left {
@@ -2094,7 +2115,7 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
-				width: 40%;
+				width: 43.5%;
 			}
 
 		}
@@ -2130,6 +2151,10 @@ input, select, textarea {
 			}
 
 				.main.style1 h2 {
+					font-size: 3em;
+				}
+
+				.main.style1 h3 {
 					font-size: 3em;
 				}
 
@@ -2323,3 +2348,18 @@ input, select, textarea {
 			}
 
 		}
+
+		/* .cursor {
+		  width: 20px;
+		  height: 20px;
+		  position: absolute;
+		  top: 0px;
+		  left: 0px;
+		  z-index: 1001;
+		  cursor: none;
+		  posinter-events: none;
+
+		  img {
+		    width: 10%;
+		  }
+     } */
