@@ -600,13 +600,19 @@ input, select, textarea {
 
 	}
 
-	strong, b {
+	strong {
 		font-weight: 900;
 		color: inherit;
 	}
 
+	b {
+		font-size: 900;
+		font-weight: 900;
+	}
+
 	em, i {
-		font-style: italic;
+		font-style: bold;
+		font-weight: 900;
 	}
 
 	a {
@@ -2036,7 +2042,7 @@ input, select, textarea {
 				position: relative;
 				width: 35%;
 				margin: 0;
-				opacity: 85%;
+				opacity: 80%;
 			}
 
 			.main.style2.left {
@@ -2115,7 +2121,7 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
-				width: 43.5%;
+				width: 47%;
 			}
 
 		}
